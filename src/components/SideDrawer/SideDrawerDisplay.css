@@ -1,0 +1,35 @@
+.side-drawer-display{
+	height: 50%;
+	background: white;
+	box-sizing: 2px 0px 5px rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 60%;
+	max-width: 300px;
+	z-index: 200;
+}
+
+.side-drawer-display ul{
+	/*height: 100%;*/
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.side-drawer-display li{
+	margin: 0.6rem 0;
+}
+
+.side-drawer-display a{
+	color: #525171;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.side-drawer-display a:hover,
+.side-drawer-display a:active {
+	color: #fa923f;
+}
+

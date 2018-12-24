@@ -1,0 +1,51 @@
+.toolbar{
+	position: fixed;
+	width: 100%;
+	background: #2c2c2c;
+	height: 50px;
+	top: 0;
+	left: 0;
+}
+
+.toolbar_navbar{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 1rem;
+}
+
+.toolbar_symbol p{
+	color: white;
+	text-decoration: none;
+	font-size: 1.0rem;
+}
+
+.spacer {
+	flex: 0.5;
+}
+
+.too a{
+	color: white;
+	text-decoration: none;
+}
+
+.too a:hover, 
+.too a:active {
+	color: #fa923f;
+} 
+
+
+too ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+too li{
+	padding: 0 0.5rem;
+}
+
+.toobar_logo{
+	margin-left: 0.5rem;
+}
